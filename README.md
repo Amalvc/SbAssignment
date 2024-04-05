@@ -45,7 +45,7 @@ Make sure to have these prerequisites installed and configured correctly before 
 ### 1. Clone this repository and navigate to the project folder:
 
    ```sh
-   git clone https://github.com/Amalvc/Apiwiz-assignment.git
+   git clone https://github.com/Amalvc/SbAssignment.git
    ```
 
 ### 2. Open in IntelliJ :
@@ -53,7 +53,29 @@ Make sure to have these prerequisites installed and configured correctly before 
 - Import the project by selecting the project directory.
 - Allow the IDE to download dependencies and configure the project.
 
-### 3. Update application.properties:
+### 3. Create Database
+
+To set up the database for the project, follow these steps:
+
+#### Using MySQL Workbench
+1. Open MySQL Workbench.
+2. Create a new database for the project. You can give any name to the database.
+
+#### Using Command Line
+1. Open your command line interface.
+2. Log in to MySQL using the following command:
+    ```bash
+    mysql -u root -p
+    ```
+3. Enter your password when prompted.
+4. Run the following command to create a new database (replace "apiwiz" with your desired database name):
+    ```sql
+    create database sunbase;
+    ```
+
+Make sure to replace "sunbase" with your preferred database name.
+
+### 4. Update application.properties:
 - Modify the `application.properties` file in the project's `src/main/resources` directory.
 - Add your database username, password, and the name of the database you created:
   ```properties
