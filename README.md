@@ -1,6 +1,8 @@
 # Customer Management
 ## Project Description
-This project is a Customer Management System (CMS) that allows users to perform CRUD (Create, Read, Update, Delete) operations on customer records. The application consists of both frontend and backend components..
+This project is a Customer Management System (CMS) that allows users to perform CRUD (Create, Read, Update, Delete) operations on customer records. The application consists of both frontend and backend components
+
+Frontend link: https://github.com/Amalvc/sbFrontend
 
 ## Table of Contents
 
